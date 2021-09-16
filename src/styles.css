@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --primaryColor: rgba(255, 74, 86, 1);
+}
+
+body {
+  background-color: var(--primaryColor);
+}
+
+.main-container {
+  margin: 10%;
+  height: 20rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+h1,
+h5 {
+  color: var(--primaryColor);
+}
+
+.input-box {
+  width: 70%;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border: solid 1px var(--primaryColor);
+  border-radius: 60px;
+  outline: none;
+  font-size: 1rem;
+}
+/* Emoji  */
+
+.emoji {
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
